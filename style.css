@@ -1,0 +1,63 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+body {
+  font-family: 'Encode sans', 'Helvetica Neue', sans-serif;
+  background-color: white;
+}
+
+.header {
+  color: white;
+  text-align: center;
+  height: 300px;
+  padding: 12px;
+  background-image: url('https://www.everynation.org/wp-content/uploads/2018/02/Monthly-Website-Header-background.jpg');
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.user-name {
+  font-size: 18px;
+  margin-top: 16px;
+}
+
+.socials {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.socials li {
+  display: inline-block;
+  margin: 5px;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background-size: cover;
+}
+
+.email {
+  background-image: url('https://www.flaticon.es/svg/vstatic/svg/520/520648.svg?token=exp=1620341585~hmac=fbc9947c7b3815dc5695f85f93ea8a97');
+}
+
+.id {
+  background-image: url('https://www.flaticon.com/svg/vstatic/svg/1077/1077114.svg?token=exp=1620341717~hmac=6b67fde63dd609f610b6751d89b6ad6a');
+}
+
+.box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.data {
+  background-color: grey;
+  background-size: cover;
+}
